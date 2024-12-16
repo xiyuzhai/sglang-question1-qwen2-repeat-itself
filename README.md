@@ -1,12 +1,39 @@
-# sglang-question1-qwen2-math-7b-instruct-repeat-itself
+# sglang-question1-qwen2-7b-instruct-repeat-itself
+
+## Environment
 
 Platform: Ubuntu 24.04.1 LTS
 
 Python version: 3.12.3
 
-The output:
+Model: Qwen2-7B-Instruct, downloaded by
 
+```bash
+pkgx huggingface-cli download Alibaba-NLP/gte-Qwen2-7B-instruct
 ```
+
+where pkgx is installed
+```bash
+curl -Ssf https://pkgx.sh | sh
+```
+
+
+## Steps to reproduce
+
+```bash
+# create a virtual environment
+make create-venv
+# install dependencies
+make setup
+# run the script
+make run
+```
+
+## Output
+
+The output repeats itself:
+
+```bash
 ===============================
 Prompt: Hello, my name is
 Generated text: Hello, my name is

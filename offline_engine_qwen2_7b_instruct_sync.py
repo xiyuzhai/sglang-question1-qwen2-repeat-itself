@@ -7,7 +7,7 @@ from multiprocessing import freeze_support
 def main():
     # Initialize the engine here, inside __main__ and after freeze_support
     llm = sgl.Engine(
-        model_path=os.path.expandvars("$HOME/.llms/models/Qwen2-Math-7B-Instruct")
+        model_path=os.path.expandvars("$HOME/.llms/models/Qwen2-7B-Instruct")
     )
 
     prompts = [

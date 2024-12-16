@@ -5,4 +5,4 @@ setup:
 	./setup.sh
 
 run:
-	.venv/bin/python3 offline_engine_qwen2_math_7b_instruct_sync.py
+	.venv/bin/python3 offline_engine_qwen2_7b_instruct_sync.py

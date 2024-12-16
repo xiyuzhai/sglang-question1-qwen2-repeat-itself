@@ -1,12 +1,3 @@
-# sglang-question1-qwen2-math-7b-instruct-repeat-itself
-
-Platform: Ubuntu 24.04.1 LTS
-
-Python version: 3.12.3
-
-The output:
-
-```
 ===============================
 Prompt: Hello, my name is
 Generated text: Hello, my name is
@@ -31,4 +22,3 @@ Generated text:  future AI is AI未来 AI未来 AI未来 AI未来 AI未来 AI未
 ===============================
 Prompt: Solve the following equation: 2x + 3 = 7
 Generated text:  equation: equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation equation
-```

@@ -15,7 +15,7 @@ docker-build:
 	docker build -t sglang_question1_qwen2_7b_instruct_repeat_itself .
 
 docker-run:
-	docker run sglang_question1_qwen2_7b_instruct_repeat_itself
+	docker run --gpus all sglang_question1_qwen2_7b_instruct_repeat_itself
 
 # Optional: Combined docker build and run
 docker-all: docker-build docker-run
@@ -30,3 +30,7 @@ docker-inspect:
 
 docker-status:
 	docker ps -a | grep $(CONTAINER_NAME) | head -n 1
+
+copy-last-docker-container-id-to-clipboard:
+	@docker ps -lq | xclip -selection clipboard
+	@echo "Last Docker container ID copied to clipboard."
